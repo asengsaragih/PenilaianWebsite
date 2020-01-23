@@ -1,0 +1,54 @@
+.content .button {
+  width: 100%;
+  margin-top: 2%;
+  background-color: white;
+}
+
+.content .button button {
+	border: none;
+	cursor: pointer;
+	padding: 16px;
+}
+
+.content .button button:hover {
+	background-color: #ccc;
+}
+
+.content form {
+	display: none;
+}
+
+.content form table {
+	width: 50%;
+	text-align: center;
+}
+
+.content form table td input[type=text], .content form table td input[type=password]{
+	width: 96%;
+	text-align: center;
+	padding: 2%;
+}
+
+.content select {
+	width: 100%;
+	padding: 2%;
+	text-align: center;
+} 
+
+.content form table input[type=submit] {
+	border: none;
+	cursor: pointer;
+	padding: 16px;
+	width: 40%;
+	margin-top: 2%;
+	border-radius: 10px;
+}
+
+.content form table input[type=submit]:hover {
+	background-color: #ccc;
+}
+
+.button_cc {
+	color: white;
+	background-color: #aaa;
+}
